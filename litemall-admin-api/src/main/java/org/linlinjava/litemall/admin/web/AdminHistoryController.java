@@ -36,5 +36,6 @@ public class AdminHistoryController {
         List<LitemallSearchHistory> historyList = searchHistoryService.querySelective(userId, keyword, page, limit,
                 sort, order);
         return ResponseUtil.okList(historyList);
+
     }
 }
