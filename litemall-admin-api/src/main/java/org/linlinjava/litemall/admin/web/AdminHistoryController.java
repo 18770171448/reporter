@@ -25,6 +25,7 @@ public class AdminHistoryController {
     @Autowired
     private LitemallSearchHistoryService searchHistoryService;
 
+
     @RequiresPermissions("admin:history:list")
     @RequiresPermissionsDesc(menu = {"用户管理", "搜索历史"}, button = "查询")
     @GetMapping("/list")
@@ -36,6 +37,5 @@ public class AdminHistoryController {
         List<LitemallSearchHistory> historyList = searchHistoryService.querySelective(userId, keyword, page, limit,
                 sort, order);
         return ResponseUtil.okList(historyList);
-
     }
 }
