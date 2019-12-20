@@ -1,8 +1,8 @@
-# litemall
+# reporter
 
-又一个小商场系统。
+又一个媒体机构哦管理系统。
 
-litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
+reporter = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
 
 * [文档](https://linlinjava.gitbook.io/litemall)
 * [贡献](https://linlinjava.gitbook.io/litemall/contribute)
